@@ -8,7 +8,6 @@ import DepartmentGroup from "./DepartmentGroup"
 const DepartmentSearch = () => {
   const { data, loading} = useQuery(QUERY_VALUE)
   const [ slug, setSlug] = useState("")
-  console.log("mi slug seleccionado", slug)
 
   return (
     loading
